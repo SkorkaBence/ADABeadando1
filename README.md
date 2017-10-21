@@ -22,7 +22,7 @@ A sabloneljárásból példányosítható eljárásnak egy paramétere legyen: e
 
 Egészísd ki az alábbi linken található tesztelőt, úgy hogy helyesen működjön! itt (A megjegyzés utáni részben kell kódot írni :) )
 
-##Table implementálása
+## Table implementálása
 Definiáljon egy sabloncsomagot, amelyben a Table (magyarul : tábla) típust valósítja meg: ez egy olyan tábla amely az adatbázis is használ. Az egyszerűség kedvéért a sabloncsomagnak két generic paramétere legyen: az egyik (Item), amely a tábla attribútumai (megjegyzés : a tesztelő itt majd egy record-ot fog átadni, amiben fel vannak sorolva az attribútumok egyessével, de ezzel a program elkészítése közben nem kell foglalkozni), és egy tömböt (Table_Array) amely Positive értékekkel van indexelve és Item típusokat tárol.
 
 A sabloncsomag példányosításával kapható csomagban legyen egy Table_Type típus, melynek diszkriminánsa (Capacity) azt mondja meg, hogy legfeljebb hány adat kerülhet a táblába. Továbbá ebben a reprezentációban nyilván tartjuk azt is, hogy aktuálisan hány elem van a tömbben.
