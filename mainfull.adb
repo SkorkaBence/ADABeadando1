@@ -18,6 +18,7 @@ procedure mainFull is
         Int_Array_First_Desc : Int_Array := (8,7,6,4,3,2,1);
         Int_Array_Second_Asc : Int_Array := (2,2,2,3,4,5);
         Int_Array_Second_Desc : Int_Array := (5,4,3,2,2,2);
+
         function Correct(
             SortT : access procedure (A: in out Int_Array);
             Input: in out Int_Array;
